@@ -1,3 +1,31 @@
 kuzat aga An even better alternative is view, which starts Vim in read-only mode on Ubuntu. And since the OP asked to view and explicitly not to edit ... -1 ... of course I will take back the downvote in case this gets edited. – 
 0xC0000022L
  Feb 27, 2013 at 12:57sleeping lol 
+
+
+re
+Improve this answer
+Follow
+edited Feb 27, 2013 at 12:50
+community wiki
+2 revs
+Private
+4
+An even better alternative is view, which starts Vim in read-only mode on Ubuntu. And since the OP asked to view and explicitly not to edit ... -1 ... of course I will take back the downvote in case this gets edited. – 
+0xC0000022L
+ Feb 27, 2013 at 12:57 
+9
+@0xC0000022L :) You can keep the downvote. Feel free to add an answer on view if you want to. Vim is perfectly capable of showing files and thus this answers the question. – 
+don.joey
+ Feb 27, 2013 at 13:07 
+3
+I upvoted your comment first. Fine with me. But since you mentioned Vim, view would literally fit into your answer instead of a separate one. I still think that and not in some text editor is pretty clear ;) – 
+0xC0000022L
+ Feb 27, 2013 at 17:09
+view is a dumb four letter alias for vim -R. If you don't use any save command like ZZ, :w or :x, there is no difference. Also you can redirect files to vim to use it as a reader: command | vim -. This is usually better than less, the only downside being that vim snarfs the entire output before displaying anything. – 
+Kaz
+ Feb 27, 2013 at 18:36
+1
+@0xC0000022L: for someone fairly new to using the command line, “in the terminal and not in some text editor” could easily mean “in some utility within the terminal, not in some text editor that opens in a separate window”. When I first came to the command line, I was so used to identifying applications with their windows that I certainly thought of vim, nano, etc. as part of the terminal rather than as separate applications for quite a while. – 
+PLL
+ Feb 27, 2013 at 22:43
